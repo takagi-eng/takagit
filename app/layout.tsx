@@ -6,7 +6,7 @@ import { SmoothScroll } from "@/components/smooth-scroll";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hirokazu-takagi.local"),
+  metadataBase: new URL("https://takagit.vercel.app"),
   title: "Hirokazu Takagi | Web Director / Creative Producer",
   description:
     "A cinematic portfolio for Hirokazu Takagi, a healthcare-focused Web Director and Creative Producer designing trust through digital experiences.",
