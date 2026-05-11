@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#1a5368"/>
+      <stop offset="48%" stop-color="#07111a"/>
+      <stop offset="100%" stop-color="#020407"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="#fff" opacity="0.02"/>
+  <text x="90" y="280" fill="#f7f8fa" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="600" letter-spacing="-2">Hirokazu Takagi</text>
+  <text x="94" y="342" fill="#84dfff" font-family="Inter, Arial, sans-serif" font-size="24" letter-spacing="5">WEB DIRECTOR / CREATIVE PRODUCER</text>
+  <text x="94" y="440" fill="#c8d0d8" font-family="Inter, Arial, sans-serif" font-size="28">Designing trust through digital experiences.</text>
+</svg>
