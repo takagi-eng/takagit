@@ -19,7 +19,7 @@ export function ContactSection() {
                   Let healthcare communication feel as refined as the care behind it.
                 </h2>
                 <p className="mt-7 max-w-2xl text-pretty text-base leading-8 text-white/[0.62]">
-                  For hospital websites, recruitment branding, editorial planning, and cinematic digital storytelling.
+                  病院サイト、採用ブランディング、編集企画、映像的なデジタル表現のご相談に対応します。
                 </p>
               </div>
               <div className="flex flex-col gap-4">

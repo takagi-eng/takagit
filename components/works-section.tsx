@@ -13,7 +13,7 @@ export function WorksSection() {
       <SectionLabel
         eyebrow="Selected Works"
         title="Immersive case studies for healthcare institutions"
-        intro="Each project is presented as an editorial system: strategy, information architecture, atmosphere, recruitment emotion, and institutional credibility."
+        intro="戦略、情報設計、採用訴求、施設の信頼感を、編集的なケーススタディとして提示します。"
       />
       <div className="mx-auto mt-16 grid max-w-7xl gap-5 px-5 sm:px-8">
         {projects.map((project, index) => {

@@ -17,8 +17,7 @@ export function VideoSection() {
             Healthcare seen from above, directed with calm precision
           </h2>
           <p className="mt-7 max-w-xl text-pretty text-base leading-8 text-white/[0.62]">
-            Drone footage becomes the emotional prologue: architecture, service, and place translated
-            into a quiet cinematic language for medical institutions.
+            建築・地域・医療の空気感を、落ち着いたオープニング体験として表現します。
           </p>
         </Reveal>
         <Reveal delay={0.15}>
@@ -45,7 +44,7 @@ export function VideoSection() {
                 Aerial Medical Narrative
               </p>
               <p className="mt-2 max-w-lg text-sm leading-6 text-white/[0.72]">
-                A premium opening frame for hospital websites, recruitment stories, and institutional brand films.
+                病院サイト、採用広報、ブランドムービーへつながる映像表現。
               </p>
             </div>
           </div>

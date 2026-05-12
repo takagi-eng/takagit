@@ -47,8 +47,8 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.72 }}
           className="mx-auto mt-8 max-w-2xl text-pretty text-base leading-8 text-white/[0.68] sm:text-lg"
         >
-          Web Director / Digital Experience Designer crafting sophisticated healthcare brands,
-          hospital websites, recruitment narratives, and cinematic editorial systems.
+          医療機関の信頼を、ブランド設計・採用広報・UX・編集表現で整える
+          Web Director / Digital Experience Designer.
         </motion.p>
       </motion.div>
       <Magnetic className="absolute bottom-8 left-1/2 z-20 -translate-x-1/2">

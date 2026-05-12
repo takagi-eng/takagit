@@ -11,14 +11,12 @@ export function AboutSection() {
         <Reveal>
           <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.24em] text-azure-700">About</p>
           <h2 className="text-balance font-serif text-4xl font-semibold leading-[1.12] tracking-[-0.02em] sm:text-6xl">
-            Creating sophisticated healthcare digital experiences through strategic design and storytelling.
+            Creating sophisticated healthcare digital experiences
           </h2>
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-pretty text-lg leading-9 text-ink-500">
-            Hirokazu Takagi bridges trust, technology, and communication for medical institutions.
-            His work gives complex healthcare information the editorial clarity, emotional restraint,
-            and digital confidence it deserves.
+            複雑な医療情報を、わかりやすく、品よく、安心して届くデジタル体験へ整えます。
           </p>
           <div className="mt-10 grid grid-cols-2 gap-3">
             {capabilities.map((item) => (

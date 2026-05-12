@@ -5,9 +5,9 @@ import { useRef } from "react";
 import { Reveal } from "@/components/reveal";
 
 const principles = [
-  ["01", "Clarity before decoration", "Medical communication earns trust when complexity becomes calm, legible, and beautifully organized."],
-  ["02", "Emotion with restraint", "Recruitment and branding should move people without overstating itself. Quiet conviction travels further."],
-  ["03", "Digital as a reputation surface", "Every interaction is a signal: navigation, speed, language, photography, and motion all shape confidence."]
+  ["01", "Clarity before decoration", "複雑な医療情報を、迷わず読める構造へ整えます。"],
+  ["02", "Emotion with restraint", "採用や広報の想いを、過度に飾らず静かに伝えます。"],
+  ["03", "Digital as a reputation surface", "言葉、導線、速度、写真、動きのすべてで信頼感をつくります。"]
 ];
 
 export function TrustSection() {
@@ -29,8 +29,8 @@ export function TrustSection() {
             Designing Trust.
           </h2>
           <p className="mt-8 max-w-2xl text-pretty text-lg leading-9 text-white/[0.62]">
-            Trust is not a slogan. It is built through pacing, hierarchy, language, visual silence,
-            and the feeling that every detail has been deliberately cared for.
+            信頼は言葉だけでは伝わりません。余白、導線、語り口、動きの細部まで整えることで、
+            医療機関らしい安心感を形にします。
           </p>
         </Reveal>
         <div className="mt-20 grid gap-px overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 lg:grid-cols-3">
