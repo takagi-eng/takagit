@@ -5,7 +5,7 @@ import { Reveal } from "@/components/reveal";
 
 export function AboutSection() {
   return (
-    <section id="about" className="relative overflow-hidden bg-ink-50 py-24 text-ink-900 sm:py-36">
+    <section id="about" className="relative overflow-hidden bg-ink-50 py-24 text-ink-900 sm:py-28">
       <div className="absolute right-[-12rem] top-[-8rem] h-[30rem] w-[30rem] rounded-full bg-azure-300/20 blur-3xl" />
       <div className="mx-auto grid max-w-7xl gap-16 px-5 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <Reveal>
@@ -16,7 +16,7 @@ export function AboutSection() {
         </Reveal>
         <Reveal delay={0.15}>
           <p className="text-pretty text-lg leading-9 text-ink-500">
-            複雑な医療情報を、わかりやすく、品よく、安心して届くデジタル体験へ整えます。
+            WEBディレクター歴10年。人材紹介・派遣営業の経験を活かし、全国の病院・クリニックのHP制作や採用HP制作に携わってきました。
           </p>
           <div className="mt-10 grid grid-cols-2 gap-3">
             {capabilities.map((item) => (
@@ -29,9 +29,6 @@ export function AboutSection() {
             ))}
           </div>
         </Reveal>
-      </div>
-      <div data-parallax="0.06" className="mt-24 whitespace-nowrap font-display text-[18vw] font-semibold leading-none tracking-[-0.07em] text-ink-900/[0.045]">
-        TRUST / EDITORIAL / MEDICAL / DIRECTION
       </div>
     </section>
   );

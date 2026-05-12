@@ -9,13 +9,13 @@ import { SectionLabel } from "@/components/section-label";
 
 export function WorksSection() {
   return (
-    <section id="works" className="relative bg-white py-24 text-ink-900 sm:py-36">
+    <section id="works" className="relative bg-white py-20 text-ink-900 sm:py-28">
       <SectionLabel
         eyebrow="Selected Works"
         title="Immersive case studies for healthcare institutions"
-        intro="戦略、情報設計、採用訴求、施設の信頼感を、編集的なケーススタディとして提示します。"
+        intro="病院サイト、採用サイト、冊子制作の実績を紹介します。"
       />
-      <div className="mx-auto mt-16 grid max-w-7xl gap-5 px-5 sm:px-8">
+      <div className="mx-auto mt-12 grid max-w-7xl gap-5 px-5 sm:px-8">
         {projects.map((project, index) => {
           const Icon = project.icon;
           const featured = index === 0;
@@ -32,7 +32,7 @@ export function WorksSection() {
                   alt={`${project.title} visual direction`}
                   fill
                   sizes="(min-width: 1024px) 1120px, 100vw"
-                  className="object-cover transition duration-1000 ease-out group-hover:scale-105"
+                  className="object-cover object-top transition duration-1000 ease-out group-hover:scale-105"
                   priority={index < 2}
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-night/[0.86] via-night/[0.38] to-night/[0.08]" />

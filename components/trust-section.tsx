@@ -29,8 +29,7 @@ export function TrustSection() {
             Designing Trust.
           </h2>
           <p className="mt-8 max-w-2xl text-pretty text-lg leading-9 text-white/[0.62]">
-            信頼は言葉だけでは伝わりません。余白、導線、語り口、動きの細部まで整えることで、
-            医療機関らしい安心感を形にします。
+            信頼は言葉だけでは伝わりません。余白、導線、語り口、動きの細部まで整えることで、医療機関らしい安心感を形にします。
           </p>
         </Reveal>
         <div className="mt-20 grid gap-px overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 lg:grid-cols-3">
