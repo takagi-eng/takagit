@@ -29,8 +29,7 @@ export const projects: Project[] = [
     role: "Healthcare web direction / digital storytelling",
     summary:
       "先進医療の信頼感を、落ち着いた導線と明快な情報設計で伝える病院サイト。",
-    image:
-      "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1800&q=85",
+    image: "/works/tominaga-hospital.png",
     icon: HeartPulse,
     metrics: ["病院ブランド", "UX設計", "情報編集"]
   },
