@@ -85,6 +85,7 @@ export const projects: Project[] = [
     title: "Pamphlet",
     category: "Medical Branding / Print",
     year: "Print",
+    url: "/works/pamphlet.png",
     role: "Editorial design direction / print communication",
     summary:
       "医療機関の情報を、読みやすく上質なパンフレット表現へ編集。",
@@ -99,6 +100,6 @@ export const capabilities = [
   "病院サイト設計",
   "採用ブランディング",
   "UX戦略",
-  "編集コミュニケーション",
-  "デジタルストーリーテリング"
+  "採用サイト設計",
+  "LP制作"
 ];
