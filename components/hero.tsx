@@ -45,7 +45,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.72 }}
-          className="mx-auto mt-8 max-w-2xl text-pretty text-base leading-8 text-white/[0.68] sm:text-lg"
+          className="mx-auto mt-14 max-w-2xl text-pretty text-base leading-8 text-white/[0.68] sm:mt-16 sm:text-lg"
         >
           Web Director / Digital Experience Designer.
         </motion.p>

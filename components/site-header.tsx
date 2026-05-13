@@ -1,8 +1,6 @@
 "use client";
 
-import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { Magnetic } from "@/components/magnetic";
 
 const nav = ["About", "Works", "Designing Trust", "Contact"];
 
@@ -30,15 +28,6 @@ export function SiteHeader() {
             </a>
           ))}
         </nav>
-        <Magnetic>
-          <a
-            href="mailto:hello@hirokazu-takagi.jp"
-            className="inline-flex items-center gap-2 rounded-full border border-azure-300/25 bg-white/90 px-4 py-2 text-xs font-semibold text-night transition hover:bg-azure-300"
-          >
-            Inquiry
-            <ArrowUpRight size={14} aria-hidden />
-          </a>
-        </Magnetic>
       </div>
     </motion.header>
   );

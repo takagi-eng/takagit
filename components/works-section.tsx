@@ -49,7 +49,7 @@ export function WorksSection() {
                           href={project.url}
                           target="_blank"
                           rel="noreferrer"
-                          className="grid size-12 place-items-center rounded-full border border-white/[0.15] bg-white/10 text-white backdrop-blur-xl transition hover:bg-white hover:text-night"
+                          className="grid size-12 place-items-center rounded-full border border-azure-300/70 bg-azure-300 text-night shadow-[0_14px_38px_-18px_rgba(132,223,255,0.9)] backdrop-blur-xl transition hover:bg-white hover:text-night"
                           aria-label={`Open ${project.title}`}
                         >
                           <ArrowUpRight size={18} aria-hidden />
